@@ -1,0 +1,85 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(
+        rgb(108, 49, 147),
+        rgb(46, 173, 73),
+        rgb(173, 166, 68)
+    );
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    border: double;
+    height: 400px;
+    width: 450px;
+    background-image: url(./stickbills.jpg);    
+    background-size: cover;
+}
+.blur{
+    height: 393px;
+    width: 443px;
+    background-color: rgba(237, 12, 61, 0.388);
+}
+header{
+    text-align: center;
+}
+body {
+    text-align: center;
+}
+#input-todo{
+    border: 3px solid rgb(57, 25, 200);
+    border-right: 0px;
+    height: 35px;
+    width: 250px;
+}
+.add{
+    border: 3px solid rgb(57, 25, 200);
+    border-left: 0px;
+    position: relative;
+    top:8px;
+    left: -5px;
+    height: 35px;
+    width: 35px;
+    color: red;
+    font-size: 30px;
+    background-color: rgb(29, 233, 36);
+}
+.add:hover{
+    background-color: rgb(32, 151, 32);
+}
+
+ul li{
+    list-style: none;
+    font-size:x-large;
+    background-color: rgba(237, 242, 246, 0.297);
+    margin: 10px;
+}
+
+i{
+    position: absolute;
+    left: 62%;
+    font-size: 18px;
+    font-weight:bolder;
+    cursor: pointer;
+    padding-top: 3px;
+}
+span{
+    position: absolute;
+    right: 39%;
+    cursor: pointer;
+    font-weight:bolder;
+    font-size: 25px;
+}
+i:hover{
+    color:red;
+}
+span:hover{
+    color: BLUE;
+}
